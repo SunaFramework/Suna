@@ -11,7 +11,9 @@
 		}
 	],
 	"require": {
-		"sunaframework/generator": "dev-master"
+		"sunaframework/generator": "dev-master",
+		"sunaframework/di": "dev-master",
+		"sunaframework/utils": "dev-master"
 
 	},
 	"autoload": {
