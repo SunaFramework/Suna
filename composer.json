@@ -1,0 +1,21 @@
+{
+	"name": "sunaframework/suna",
+	"type": "library",
+	"description": "👪 Suna Framework - innovative framework for fast and easy development of secure web applications in PHP.",
+	"keywords": ["framework", "mvc", "metapackage"],
+	"license": ["GPL-3.0"],
+	"authors": [
+		{
+			"name": "Filipe Voges",
+			"email": "filipe.vogesh@gmail.com"
+		}
+	],
+	"require": {
+		"sunaframework/generator": "dev-master"
+
+	},
+	"autoload": {
+		"classmap": ["Suna/"]
+	},
+	"minimum-stability": "dev"
+}
